@@ -1,23 +1,567 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Computational Biology Docker Images</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/about">About</a></li>
-        		<li><a href="/Docker Images">Docker Images</a></li>
-        		<li><a href="/Community Guidelines">Community Guidelines</a></li>
-            <li><a href="/Docker">Docker</a></li>
-    		</ul>
-		</nav>
-	
-		<footer>
-    		<ul>
-        	
-        		<li><a href="https://github.com/GenomePTiMM">github.com/GenomePTiMM</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Docker Containers iMM Computational Biology Team">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Docker Containers iMM Computational Biology Team</title>
+
+
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="fontawesome/css/brands.css" rel="stylesheet">
+  <link href="fontawesome/css/solid.css" rel="stylesheet">
+  
+
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preload-content">
+      <div id="dento-load"></div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Top Header Area -->
+    <div class="top-header-area">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!-- Top Content -->
+          <div class="col-6 col-md-9 col-lg-8">
+            <div class="top-header-content">
+              <a href="https://www.google.com/maps/place/Instituto+de+Medicina+Molecular+(IMM)/@38.7466936,-9.1615179,15z/data=!4m2!3m1!1s0x0:0xbdcfa9c87a4c0bc4?sa=X&ved=2ahUKEwiAtr2AgPvlAhV0DGMBHdFsD50Q_BIwE3oECAoQCA" data-toggle="tooltip" data-placement="bottom" title="Instituto de Medicina Molecular João Lobo Antunes">
+			  <i class="fa fa-map-marker"></i> <span>Instituto de Medicina Molecular - João Lobo Antunes</span></a>
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="genomeptimm@gmail.com"><i class="fa fa-envelope"></i> <span>genomeptimm@gmail.com</span></a>
+            </div>
+          </div>
+          <!-- Top Header Social Info -->
+          <div class="col-6 col-md-3 col-lg-4">
+            <div class="top-header-social-info text-right">
+			<a href="https://hub.docker.com/orgs/genomeptimm" data-toggle="tooltip" data-placement="bottom" title="Docker hub"><i class="fab fa-docker"></i></a>
+			<a href="https://github.com/GenomePTiMM" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.facebook.com/immolecular/" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/IMMolecular" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter"></i></a>             
+              <a href="https://www.linkedin.com/company/instituto-de-medicina-molecular/" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header End -->
+
+    <!-- Main Header Start -->
+    <div class="main-header-area">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="dentoNav">
+
+            <!-- Logo -->
+            <a class="nav-brand" href="index.html"><img src="./img/core-img/logo3.png" alt=""></a>
+			
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+
+              <!-- Close Button -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav">
+                  <li><a href="#about">About</a></li>
+               
+              
+                
+                     
+                      <li><a href="#dockercontainers">Docker Containers</a></li>
+                     
+                    
+                  
+                      <li><a href="#contact">Contact</a></li>
+					  
+                    
+                    </ul>
+                  </li>
+				  
+                 
+                </ul>
+              </div>
+              <!-- Nav End -->
+            </div>
+
+            
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Welcome Area Start ***** -->
+  <section class="welcome-area">
+    <!-- Welcome Slides -->
+    <div class="welcome-slides owl-carousel">
+      <!-- Single Welcome Slide -->
+      <div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: url(img/bg-img/1.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12">
+              <!-- Welcome Text -->
+              <div class="welcome-text text-center">
+                <h2 data-animation="fadeInUp" data-delay="100ms">Computational Biology Docker Containers</h2>
+                <p data-animation="fadeInUp" data-delay="300ms">Using container-based technologies for computational biology software.
+                  </p>
+                <div class="welcome-btn-group">
+                  <a href="#dockercontainers" class="btn dento-btn mx-2" data-animation="fadeInUp" data-delay="500ms">Get Started</a>
+                  <a href="#contact" class="btn dento-btn mx-2 active" data-animation="fadeInUp" data-delay="700ms">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Single Welcome Slide -->
+      <div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: url(img/bg-img/2.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12">
+              <!-- Welcome Text -->
+              <div class="welcome-text text-center">
+                <h2 data-animation="fadeInDown" data-delay="100ms">Development of next-generation data analysis pipelines</h2>
+                <p data-animation="fadeInDown" data-delay="300ms">Provide a series of tools ready to be used by the bioinformatics community.
+				
+                  </p>
+                <div class="welcome-btn-group">
+                  <a href="#" class="btn dento-btn mx-2" data-animation="fadeInDown" data-delay="500ms">Get Started</a>
+                  <a href="#" class="btn dento-btn mx-2 active" data-animation="fadeInDown" data-delay="700ms">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Welcome Area End ***** -->
+
+  <!-- ****** About Us Area Start ******* -->
+  <div id="about">
+  <section class="dento-about-us-area section-padding-100-0" >
+    <div class="container" >
+      <div class="row align-items-center">
+        <!-- About Us Thumbnail -->
+        <div class="col-12 col-md-6">
+          <div class="about-us-thumbnail mb-50">
+            <img src="./img/bg-img/15.jpg" alt="">
+          </div>
+        </div>
+        <!-- About Content -->
+        <div class="col-12 col-md-6" >
+          <div class="about-us-content mb-50">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <h2>About Us</h2>
+              <div class="line"></div>
+            </div>
+            <p>We are a team of computational biologists focused on the
+			development of pipelines of bioinformatics analysis of genomic data generated by microarray and next-generation sequencing platforms and their Docker
+             containerization.</p>
+            
+           
+
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  </section>
+  <!-- ****** About Us Area End ****** -->
+
+  <div class="container">
+    <div class="dento-border clearfix"></div>
+  </div>
+
+  <!-- Cool Facts Area Start -->
+  <section class="dento-cta-area">
+    <div class="container">
+      <div class="row">
+	  <!-- Cool Facts Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_id"></i>
+            <h2><span class="counter">10</span></h2>
+            <h5>Team members</h5>
+          </div>
+        </div>
+		
+        <!-- Cool Facts Area -->
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-cta text-center mt-50 mb-100">
+            <i class="icon_genius"></i>
+            <h2><span class="counter">20</span>+</h2>
+            <h5>Docker Containers</h5>
+          </div>
+        </div>
+
+        
+
+        
+      </div>
+    </div>
+  </section>
+  <!-- Cool Facts Area End -->
+
+  <!-- Dento Service Area Start -->
+  <section class="dento-service-area section-padding-100-0 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url('img/bg-img/13.jpg');">
+    <div class="container" >
+      <div class="row align-items-center">
+        <!-- Service Content -->
+        <div class="col-12 col-lg-6">
+          <div class="service-content mb-30">
+            <!-- Section Heading -->
+            <div class="section-heading white">
+              <h2 >Our Services</h2>
+              <div class="line"></div>
+            </div>
+
+            <div class="row">
+              <!-- Single Service -->
+              <div class="col-6 col-md-4">
+                <div class="single-service mb-70">
+                  <img src="./img/core-img/IMAGEM.png" alt="">
+                  <h6>Computational biology pipeline development</h6>
+                </div>
+              </div>
+
+              <!-- Single Service -->
+              <div class="col-6 col-md-4">
+                <div class="single-service mb-70">
+                  <img src="./img/core-img/IMAGEM.png" alt="">
+                  <h6>Analysis of next-generation sequencing data</h6>
+                </div>
+              </div>
+
+             
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Area -->
+        <div class="col-12 col-lg-6" >
+          <div class="dento-video-area mb-100">
+           
+            <!-- Play Button -->
+			
+			<iframe  src="https://www.genomept.pt/services" height="500" width="600" style="overflow:hidden;" scrolling="no"></iframe>
+			
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Dento Service Area End -->
+
+  <!-- Dento Docker Images Table Area Start -->
+  <section class="dento-pricing-table-area section-padding-100" id="dockercontainers">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h2>Docker Containers</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="dento-price-table table-responsive">
+            <table class="table table-borderless mb-0">
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Category</th>
+                  <th scope="col">Keywords</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">genomeptimm/fastqc:v0.11.5</th>
+                  <td>Quality control</td>
+                  <td>fastqc; quality control; sequence data; high throughput; </td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <th scope="row"> </th>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <th scope="row"> </th>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <th scope="row"> </th>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <th scope="row"> </th>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="more-btn text-center mt-50">
+            <a href="#GUIDELINE LINK" class="btn dento-btn">Contribute <i class="fa fa-angle-double-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Dento Docker Images Table Area End -->
+
+  <!-- Book An Oppointment Area Start -->
+  <section class="book-an-oppointment-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url('img/bg-img/12.jpg');">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center white">
+            <h2>Request Docker Containers</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <!-- Appointment Form -->
+          <div class="appointment-form">
+            <form action="#" method="post">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <input type="text" name="your-name" class="form-control" placeholder="Your Name" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <input type="text" name="your-phone" class="form-control" placeholder="Your Phone" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <input type="email" name="your-email" class="form-control" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group mb-30">
+                    <input type="text" name="your-institution" class="form-control" placeholder="Your Institution">
+                  </div>
+                </div>
+               
+			   
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group mb-30">
+                    <textarea name="your-message" class="form-control" placeholder="Your Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn dento-btn">Request Now</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Book An Oppointment Area End -->
+
+  <!-- ***** Dento Dentist Area Start ***** -->
+  <section class="dentist-area section-padding-100-0">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h2>Our collaborators</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Dento Dentist Area End ***** -->
+
+  <!-- ***** Testimonials Area Start ***** -->
+  <section class="testimonials-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: url('img/bg-img/7.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- Testimonials Slides -->
+          <div class="testimonials-slides owl-carousel">
+		  
+            <!-- Single Testimonials Slide -->
+            <div class="single-testimonial-slide d-flex align-items-center">
+              <!-- Thumbnail -->
+              <div class="testimonial-thumb">
+                <img src="./img/bg-img/10.png" alt="">
+              </div>
+              <!-- Content -->
+              <div class="testimonial-content">
+                <h5><p>"We have a long-term interest in the systems-level transcriptional regulation underlying mammalian cell 
+				specification, often perturbed in disease. In particular, we are studying the mechanisms responsible for the association 
+				between aberrant splicing and pathologies like cancer and neurodegenerative disorders. </p>
+				<p>We employ computational biology approaches for the analysis of next-generation sequencing data to find disease-specific 
+				transcriptomic signatures, aiming to understand how the regulation of alternative splicing is affected in different pathologies 
+				and thereby to identify molecular targets for functional exploration in vitro and in vivo.</p>
+                <p>We also combine molecular and clinical information for the unveiling of novel candidate prognostic factors and therapeutic targets."</p></h5>
+                <h6>Nuno Morais Lab</h6>
+              
+              </div>
+            </div>
+
+           
+<!-- Single Testimonials Slide -->
+            <div class="single-testimonial-slide d-flex align-items-center">
+              <!-- Thumbnail -->
+              <div class="testimonial-thumb">
+                <img src="./img/bg-img/11.png" alt="">
+              </div>
+              <!-- Content -->
+              <div class="testimonial-content">
+                <h5><p>"We are currently exploring the differences between bacterial populations at 
+			   the whole-genome level.</p>
+
+               <p>We are refining existing approaches to handle high throughput sequence (HTS) data and are developing tools for storing and mining this data 
+			   in a unified platform, integrating information from existing databases. This is reflected in the development of novel bioinformatic 
+			   tools with a focus on HTS. We hope to get a detailed view of the genetic differences between bacterial clones and to identify 
+			   candidate genes to explain their different abundance. We are also looking at streptococci causing infections in humans and animals 
+			   to identify key events allowing the adaptation to different host species and to evaluate the current potential for zoonotic acquisition. 
+			   Understanding the dynamics and responses of a bacterial population to the multiple selective pressures imposed on it and the key genetic
+			   events allowing the differentiation of specific clones will allow us to better predict bacterial pathogen evolution.</p>
+                <p>Our research also produces important epidemiological information allowing us to anticipate the potential benefits of vaccination or 
+				guiding the optimal empirical therapy for infections of suspected streptococcal etiology."</p></h5>
+                <h6>Mario Ramirez Lab</h6>
+              
+              </div>
+            </div>
+			
+			
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Testimonials Area End ***** -->
+
+ 
+
+  <!-- ***** Footer Area Start ***** -->
+  <footer class="footer-area bg-img bg-gradient-overlay" id="contact">
+    <div class="container">
+      <div class="row">
+	  
+        <!-- Single Footer Widget -->
+		
+        <div >
+          <div class="single-footer-widget">
+            <a href="./index.html" class="d-block mb-4"><img src="./img/core-img/logo5.png" alt="" height="420" width="420"></a>
+            <p> </p>
+            <div class="footer-contact" >
+              <p><i class="icon_pin"></i>  Instituto de Medicina Molecular - João Lobo Antunes </p>
+              <p><i class="icon_phone"></i> +351 21 7999411 -> Ext: 47345</p>
+              <p><i class="icon_mail"></i> genomeptimm@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        
+
+        
+        
+
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copywrite Area -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="copywrite-content">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template was made with <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ***** Footer Area End ***** -->
+
+  <!-- ******* All JS ******* -->
+  <!-- jQuery js -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Popper js -->
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- All js -->
+  <script src="js/dento.bundle.js"></script>
+  <!-- Active js -->
+  <script src="js/default-assets/active.js"></script>
+
+</body>
+
 </html>
